@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_a"
+        android:icon="@drawable/ic_baseline_connect_without_contact_24"
+        android:title="홈"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_b"
+        android:icon="@drawable/ic_baseline_assessment_24"
+        android:title="게시판"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_c"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:title="채팅"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_d"
+        android:icon="@drawable/ic_baseline_announcement_24"
+        android:title="설정"
+        app:showAsAction="ifRoom"/>
+
+</menu>

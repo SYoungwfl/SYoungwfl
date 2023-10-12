@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cookandroid.healthapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthApp">
+        <activity
+            android:name=".activity.BTN6"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BTN5"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BTN4"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BTN3"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BTN2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BTN1"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@layout/activity_gallery" />
+
+        <activity
+            android:name=".activity.AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.WritePostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.cookandroid.healthapp"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@layout/activity_gallery" />
+        </provider>
+    </application>
+
+</manifest>
