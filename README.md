@@ -16,4 +16,3 @@ Here are some ideas to get you started:
 -->
 <h2>My stack</h2>
 
-![JavaScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
