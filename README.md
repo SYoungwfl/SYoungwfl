@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <h2>My stack</h2>
-
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
