@@ -14,5 +14,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<h2>My stack</h2>
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
